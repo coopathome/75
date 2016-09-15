@@ -1,0 +1,46 @@
+//$red: #c00;
+$red: #d31e48;
+$green-light: #c4df9b;
+$green: #8dc63f;
+$green-dark: #6cad26;
+$blue-light: #bbe5fb;
+$blue: #71cef5;
+$blue-dark: #53b9f1;
+$yellow: #f6a800;
+$orange: #fd9d0b;
+$orange-dark: #e6670b;
+$yellow-dark: $orange-dark;
+
+$white: #fff;
+$grey-subdued: #E5E8E8;
+$grey-light: #C1C9CB;
+$grey: #8d999e;
+$grey-dark: #637277;
+$black: #22292c;
+
+$gold-light: #fae56b;
+$gold-medium: #ecbf40;
+$gold-dark: #966d2d;
+
+$primary: $red;
+
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+// Typography variables
+
+$base-font-size: 1.125rem;
+$small-font-size: #{(4 / 5) * $base-font-size};
+
+$heading1-font-size: #{3 * $base-font-size};
+
+$line-height-unitless: 1.45;
+$line-height: #{ $line-height-unitless * $base-font-size };
+$line-height-half: #{ ( 1 / 2 ) * $base-font-size };
+$gutter: #{2 * $line-height};
+
+$heading-line-height: #{($line-height-unitless + 1) / 2};
+
+$sans: 'Helvetica', '-apple-system', BlinkMacSystemFont, sans-serif;
+
+$max-width: #{ (1000/16) * 1rem };

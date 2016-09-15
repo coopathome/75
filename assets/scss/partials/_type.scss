@@ -1,0 +1,50 @@
+body {
+  color: $grey-dark;
+  font-family: $sans;
+  font-size: $base-font-size;
+  line-height: $line-height-unitless;
+}
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+
+}
+
+.h1 {
+  font-size: $heading1-font-size;
+  font-size: 10vh;
+  line-height: $heading-line-height;
+  display: block;
+  clear: both;
+  margin-bottom: $line-height;
+}
+
+.h2 {
+  line-height: $heading-line-height;
+  display: block;
+  clear: both;
+  margin-bottom: $line-height;
+}
+
+.h3 {
+  line-height: $heading-line-height;
+  display: block;
+  clear: both;
+  margin-bottom: $line-height;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: $line-height;
+}
+
+.golden-text {
+  background: -webkit-linear-gradient(-80deg, $gold-dark, $gold-medium, $gold-light, $gold-medium, $gold-dark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
